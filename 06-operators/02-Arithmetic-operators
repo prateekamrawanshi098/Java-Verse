@@ -1,0 +1,75 @@
+            ARITHMETIC OPERATORS
+                ====================
+
+        They are used for performing mathematical calculation .
+
+
+        In java we have exactly 5 aritmetic operators
+        ==============================================
+        1. + (Addition)
+        2. - (Substraction)
+        3. * (Multiplication)
+        4. / (Divison)
+        5. % (Modulo Divison or Mod)
+             (Gives Remainder)
+
+
+int a=10,b=3;
+
+a+b-->13
+a-b-->7
+a*b-->30
+a/b-->3    because int/int=int is always int
+a%b-->1    
+
+
+==============================================
+1.
+int a=10;
+int b=4;
+int c;
+c=a/b;   //c=2
+
+
+2.
+int a=10;
+int b=4;
+
+float c;
+c=a/b; //c=2.0f
+
+
+3.
+int a=10;
+float b=4;
+
+int c;
+c=a/b;  //Error:lossy conv from float to int
+
+
+4.
+int a=10;
+float b=4;
+
+float c;
+c=a/b; //c=2.5f
+
+5.
+int a;
+a=10/4.0; //Error lossy conv from double to int
+
+6.
+float a;
+a=10/4.0; //Error lossy conv from double to float
+
+
+Two more rules about / and %
+==============================
+
+1.in Divison if numerator is smaller than denominator answer is always 0.
+ex: 5/10->0
+    2/3->0
+
+2. In Modulo if numerator is smaller than denominator answer always is numerator itself.
+ex: 5%10->5
+    2%3->2
