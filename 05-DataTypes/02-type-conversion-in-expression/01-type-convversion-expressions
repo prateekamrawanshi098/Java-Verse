@@ -1,0 +1,75 @@
+                Two types of type conversion
+                =============================
+
+                1. Type conversion in assignment
+                     a.Implicit conversion
+                     b. Explicit conversion
+
+                2.  Type conversion in Expression
+                    (Type promotion)     
+
+
+What is Expressioin ?
+===========================================                    
+
+Any statement which contains operator and operand.
+
+Expression:
+2+3
+6-5*4/1
+2+3.0
+
+
+A lower type operand will be automatically upgraded to corressponding higher type operand before solving Expression
+
+1.
+int------long
++
+long----->long
+=
+long
+
+2.
+float------>double
++
+double----->double
+=
+double
+
+
+But there is special imp twist int this story
+
+If in any expression we have BYTE, SHORT or CHAR 
+type of operands the they will be automatically upgarded 
+to INT before solving the expression.
+
+This is because the compiler of java has been designed
+in such a way that it operates in much faster way on INTEGERS.
+
+
+EXAMPLE:
+byte a=10;
+byte b=20;
+byte c;
+c=a+b; //Error :lossy conv from int to byte
+
+there are 2 solutions :
+
+1.
+c=(byte)(a+b);
+
+2.int c= a+b;
+
+Which of the solution is more reliable:
+
+Answer : second solution is reliable ,
+
+ex1:
+byte a=127, b=3;
+byte c=;
+c=(byte)(a+b);
+sout(c); 
+====================
+Output:
+-126;
+
