@@ -1,0 +1,41 @@
+                 Relational operators
+                 =====================
+
+                 1. >
+                 2. <
+                 3. >=
+                 4. <=
+                 5. ==
+                 6. !=
+
+        They all are used to write boolean expressio  and ALWAYS return their value as true or false
+
+
+
+
+
+              =              |          ==
+      assignment operators   |   Equality testing operator
+                             |     
+          a=b;               |    a==b;
+      copy value of b to a   |     check values is same as b or not 
+                             |      if yes return true ,if no return false
+                             |                              
+                             |
+                             |
+                             |
+                        
+
+Multi Assignment Expression
+===========================
+
+int a,b,c,d,e;
+
+a=b=c=d=e=10;  support by java
+
+but,
+
+a=b=c=d=10=e; //error
+
+LHS of assignment operators must be varibale 
+while 10 is an constanr
