@@ -1,0 +1,57 @@
+                             Type Conversion          
+             ============================================  
+
+
+coverting the the value from one datatype to another.
+
+Their are 2 types of type Conversion
+1.Implicit  - done by java conversion
+2.Explicit  - done by programmer
+
+Rules of Implicit conversion
+=============================
+1. value must be compatible 
+
+ex:1
+======
+
+int n;
+n='A';
+
+sout(n)=65  As java as a numeric representation of character so 'A' will be converted in to 65 
+
+ex:2
+======
+
+int n;
+n=true; Error  java does not have any numeric representation of boolean value
+
+
+2. RHS must be smaller than LHS
+
+ex:1
+====
+
+int a;
+a='Z';
+
+ex:2
+====
+
+int s=2.3; Error
+
+message
+=======
+possible lossy conversion from double to int
+
+
+Solution
+==========
+
+Explicit Conversion
+
+int s=(int)2.7
+
+sout(s)=2
+
+

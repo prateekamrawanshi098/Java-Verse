@@ -1,0 +1,280 @@
+1.
+byte b=10;
+int n;
+n=b;
+
+work
+
+=============
+
+2.
+int n=10;
+byte b;
+b=n; //Error
+
+Error: lossy conversion
+Solution:b=(byte)n =>no data loss n=10
+=====================
+
+3.
+int n=128; 
+byte b;
+b=n; Error
+
+Error: Lossy conversion
+Solution: b=(byte)n=>data loss b=-128 
+
+==================
+
+4.
+short s=10;
+int n;
+n=s;
+
+work
+
+================
+
+5.
+int n=10;
+short s;
+s=n; //Error
+
+Error:lossy conversion
+Solution : s=(short)n => no data loss , n=10
+
+
+=====================================================
+
+6.
+int n=32768
+short s;
+s=n; //Error
+
+Error:lossy conversion
+Solution: s=(short)n => data loss , n=-327688
+
+
+===================================================
+
+7.
+int n=10;
+long a;
+a=n;
+
+work
+
+===============
+
+8.
+long a=10;
+int n;
+n=a;//Error
+
+Error: lossy conversion
+
+===============
+
+9.
+long a=2147483648; // Error
+int n;
+n=a;
+
+Error: Integer value to large
+solution: suffix declaration, long a=2147483648L
+
+=========================================
+
+value                Data Type
+
+25                  integer constant
+
+1.4                 double constant
+
+'A'                 character constant
+
+"Prateek"           String constant
+
+true/false          boolean constant
+
+============================================
+
+10.
+
+int n;
+n=2147483648;//Error
+
+Error: integer value too large
+
+====================
+
+11.
+int n;
+n=(int)2147483648; //Error
+
+Error: Integer value too large
+
+==================================
+
+12.
+int n;
+n=2147483648L; //Error
+
+Error: lossy conversion from long to int
+
+==============
+
+13. 
+int n;
+n=(int)2147483648L
+
+work: n=-2147483648
+
+=======================
+
+14.
+long a;
+a=2147483648;//Error
+
+Error: integer value too large
+
+=========================
+
+15.
+
+long a;
+a=(long)2147483648;//Error
+
+Error: integer value too large
+
+==================
+
+16.
+
+long a;
+a=2147683648L;
+
+work
+
+==================
+
+17.
+float a;
+a=214783648;//Error
+
+Error: integer value too large
+
+==============
+
+18.
+
+float a;
+a=(float)2147483648;//Error
+
+Error:integer value too large
+
+================
+
+19.
+
+float a;
+a=2147483648L;
+
+work
+
+=====================================================================================================================================
+
+RULE : Any numeric value which is not comming in range of int always needs to be suffixed with "L" or "l' to be considered as long"
+
+=====================================================================================================================================
+
+
+20.
+
+double a=1.5;
+float b;
+b=a;//Error
+
+Error: lossy conversion
+
+================
+
+21.
+
+float a=1.5;//Error
+double b;
+b=a;
+
+Error:lossy conversion
+
+
+===========================
+
+22.
+
+byte a=10;
+char ch;
+ch=a;//Error
+
+Error: lossy conversion
+solution explicit conversion
+
+=======
+
+23.
+
+char ch='A'
+byte b;
+b=ch;//Error
+
+Error: lossy conversion
+solution explicit conversion
+
+
+========
+
+24.
+
+short s=10;
+char ch=;
+ch=s;//Error
+
+Error: lossy conversion
+solution explicit conversion
+
+
+========
+
+25.
+
+char ch='A';
+short s;
+s=ch;//Error
+
+Error: lossy conversion
+solution explicit conversion
+
+
+==========
+
+26.
+
+int n=10;
+char ch;
+ch=n;//Error
+
+Error: lossy conversion
+solution explicit conversion
+
+
+======
+
+27.
+
+char ch='A';
+int n;
+n=ch;
+
+work
+
+=========================================
