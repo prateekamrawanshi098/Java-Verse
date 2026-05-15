@@ -1,0 +1,18 @@
+            Converting String To Int
+            ========================
+
+
+
+     class : Integer
+     
+     method : parseInt()
+
+     purpose: converting  String To Int
+
+     syntax: static int parseInt(String)
+
+     ex:
+     ====
+     int a;
+     a=Interger.parseInt("25");
+     

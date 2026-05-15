@@ -1,0 +1,44 @@
+               Wrapper CLasses
+               ================
+1.Wrapper classes in java are a group of 8 classes available in the package java.lang
+
+2.They have their names resembling with the name of primitive datatypes
+
+3.Their have very very imp uses and there are two uses.
+
+a.For converting String representation of a value to its original type .
+
+For ex: to convert "25" to 25 we will use this Wrapper class Integer and we will call its method parseInt()
+
+====================================================================================================================
+
+
+Wrapper class             |     Parse Method
+                          |
+1.Integer                 |   parseInt()
+                          |
+2.Double                  |   parseDouble
+                          |
+3.Float                   |   parseFloat()
+                          |
+4.Character               |   No Parse Method 
+                          |
+5.Boolena                 |   parseBoolean()
+                          |
+6.Short                   |   parseShort()
+                          |
+7.Byte                    |   parseByte()
+                          |
+8.Long                    |   parseLong()
+                          |
+
+
+Wrapper classes are also used to convert variable into object                          
+
+int n=50;
+
+Integer obj=n;    //obj is object reference
+
+
+We will require this feature of java in a topic called 
+Collections which only works with objects and doesn't allow any variables

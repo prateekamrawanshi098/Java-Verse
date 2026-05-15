@@ -1,0 +1,18 @@
+            Converting String To Double
+            ========================
+
+
+
+     class : Double
+     
+     method : parseDouble()
+
+     purpose: converting  String To Double
+
+     syntax: static int parseInt(String)
+
+     ex:
+     ====
+     int a;
+     a=Interger.parseDouble("25.5");
+     
