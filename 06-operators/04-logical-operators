@@ -1,0 +1,88 @@
+               Logical Operators
+               =================
+
+
+         0<n<10 is valid in maths 
+
+         but in java it will give error  
+
+         We use logical Operators in java to combine multiple conditions
+
+         Therir are 3 logical Operators
+         ===============================
+
+        1. && LOGICAL AND
+        2. || LOGICAL OR
+        3. ! LOGICAL NOT
+
+1.LOGICAL AND
+================
+
+conditions1             conditions2             Result
+
+T                       T                        T
+
+T                       F                        F
+
+F                       T                        F
+
+F                       F                        F
+
+
+
+2.LOGICAL OR
+==============
+
+conditions1             conditions2             Result
+
+T                       T                        T
+
+T                       F                        T
+
+F                       T                        T
+
+F                       F                        F
+
+
+example:1
+==========
+
+int a=10,b=5, c=15;
+
+boolean d;
+
+d= a>b && b>c;
+
+SOP(d) ; //false
+
+example:2
+==========
+
+int a=10,b=5, c=15;
+
+boolean d;
+
+d= a>b || b>c;
+
+SOP(d) ; //true
+
+
+
+3.LOGICAL NOT
+==============
+
+! Operator flips the boolean value , only works on boolean data.
+
+Ex:
+===
+
+boolean a=false,b;
+boolean c;
+b=!a;
+c=!b;
+SOP(a);//  false
+SOP(b);//  true
+SOP(c);//  false
+
+int n=10,x;
+x=!n; //Error : Bad operand
