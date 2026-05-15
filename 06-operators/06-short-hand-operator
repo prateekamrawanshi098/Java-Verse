@@ -1,0 +1,22 @@
+              SHORT HAND OPERATOR
+              ====================
+
+1. 
+a=a+b;
+a+=b;
+
+2.
+x=x-y;
+x-=y;
+
++=   
+-=
+*=
+/=
+%=
+
+also known as compound operator and arithmetic assignment operator
+
+
+   
+
