@@ -1,0 +1,24 @@
+        The Math Class
+        ===============
+
+1.In java Math is predefined class.
+
+2.this class helps a programmer for performing mathematical calculation like power,log,sin cos etc.
+
+3.The class Math also contains mathematical constants like PI,E etc
+
+4.There is a very special point about Math.class
+
+5. Every member of Math class  is by default static .
+
+6. The Math class belong to java.lang package
+=============================================================================================================
+
+
+
+Every class in java has 2 types of members
+=============================================
+
+static member                                     instance member
+=>used always along with class name               =>Used always along with object
+
