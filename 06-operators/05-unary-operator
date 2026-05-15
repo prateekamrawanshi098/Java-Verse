@@ -1,0 +1,54 @@
+                     Unary Increment Operator
+                     ==========================
+
+
+                             ++
+
+        Post Increment       and        Pre Increment
+
+                             a=a+1
+
+         a++                               ++a                    
+
+
+
+
+int a=10;                       |     int a=10;
+a++;                            |     ++a;
+SOP(a); // 11                   |     SOP(a); //
+
+
+
+int a=10,b;                     |     int a=10;
+                                |  
+b=a++;                          |     b=++a;
+                                | 
+SOP(a); //11                    |     SOP(a); 11
+SOP(b); //10                    |     SOP(b); 11
+
+
+              Unary Decrement
+              =================
+
+
+         PostDecrement       PostDecrement
+         
+         
+                   int a=10;
+                   a=a-1;
+         
+                
+
+          a--;                     --a;
+
+
+
+
+          ARY--> No. of operands needed by an Operators
+
+Unary                     Binary                   Ternary
+=====                     =======                  ========
+                         
+WHich require only 1      Which require 2          Requires 3 opernads
+operand                   operands                 Ex: ? :
+ex: ++, --, !             ex: a=10; 2+3
