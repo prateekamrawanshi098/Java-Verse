@@ -1,0 +1,83 @@
+       Important Methods of String class
+       =================================
+
+
+1.
+length(): it is an isntance method ,calculate and returns length of String,
+
+ex:
+String name=new String("Prateek");
+
+int x=name.length();
+
+x=name.length(); where "." called member access operator
+
+System.out.println("string is "+name);
+System.out.println("its length is "+x);
+
+OUTPUT
+=======
+string is Sachin
+its length is 6
+
+
+===================================================================================
+
+
+2.
+charAt(): It is an instance method and accepts an integer as argument and returns the character present at the index.
+
+ex:
+===
+String name=new String("Prateek");
+
+char ch;
+ch=name.charAt(0);    // here name is called calling object
+System.out.println(ch);
+ch=name.charAt(10);
+System.out.println(ch);
+
+OUTPUT
+======
+P
+Excpetion:StringIndexOutOfBoundsException
+
+
+==========================================================
+
+3.equals() : It is an instance method and comparre 2 Strings(calling and arguement)
+In case sensitive way. It then returns true if the strings are same otherwise it returns false.
+
+Ex
+String s1=new String("Hello");
+String s2=new String("Hello");
+String s3=new String("hello");
+
+System.out.println(s1.equals(s2));//true
+System.out.println(s1.equals(s3));//false
+
+
+==================================================================================================
+
+
+4.
+equalsIgnoreCase() : It is an instance method and comparre 2 Strings(calling and arguement)
+In case insensitive way. It then returns true if the strings are same otherwise it returns false.
+
+Ex
+String s1=new String("Hello");
+String s2=new String("Hello");
+String s3=new String("hello");
+
+System.out.println(s1.equals(s2));//true
+System.out.println(s1.equals(s3));//true
+
+
+=====================================================================================================
+
+
+
+
+
+
+

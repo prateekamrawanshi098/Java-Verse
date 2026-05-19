@@ -1,0 +1,17 @@
+   Two Ways
+===============
+
+String s1=new String("Bhopal");
+
+Or 
+
+String s1="Bhopal";
+
+
+Special Note
+=============
+
+Although at basic level with the above lines
+are doing same thing but TECHNICALLY they have a
+ HUGE DIFFERENCE between them and we will discuss it 
+ in String Handling chapter
