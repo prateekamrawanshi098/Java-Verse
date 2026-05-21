@@ -3,8 +3,8 @@
 public class VowelOrNot {
 
     public static void main(String[] args) {
-        char c = args[0].charAt(0);
-        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+        char c = args[0].toUpperCase().charAt(0);
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ) {
             System.out.println("character is vowel");
         }
         else
