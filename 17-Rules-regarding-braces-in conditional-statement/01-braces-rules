@@ -1,0 +1,15 @@
+    Rules Regarding Braces used with Conditional Statement
+    ======================================================
+
+
+  The curly braces (brackets) are optional if the body of the conmditional statement contains only 1 line,but if the body is of more than one line then braces will become compulsory
+
+
+if(cond){                    if(cond)                 
+    stat1;                        stat1;
+}                            stat2;
+stat2;                       stat3
+stat3;                       stat4;
+stat4;                       
+
+Both the codes are exactly same
