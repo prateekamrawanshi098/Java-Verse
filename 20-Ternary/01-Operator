@@ -1,0 +1,25 @@
+TERNARY OPERATOR
+================
+
+
+Normal
+======
+int x,y;
+x=10;
+if(x>=0){
+    y=1;  
+}else
+    y=-1;
+
+
+Using Ternary
+=============
+
+Syntax -> ? :
+
+var_name=(test cond) ?true_stat :false_stat
+
+
+int x,y;
+x=10;
+y=(x>0)?+1:-1;
