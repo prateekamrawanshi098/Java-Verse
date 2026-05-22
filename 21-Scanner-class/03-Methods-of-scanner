@@ -1,0 +1,20 @@
+Methods of Scanner
+==================
+
+1.int nextInt()
+
+2.float nextFloat()
+
+3.double nextDouble
+
+4.long nextLong()
+
+5.byte nextByte()
+
+6.short nextShort()
+
+7.boolean nextBoolean()
+
+8. String next()
+
+9. String nextLine()
