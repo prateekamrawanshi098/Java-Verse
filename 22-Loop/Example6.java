@@ -1,11 +1,12 @@
-class Example4 {
+class Example6 {
     public static void main(String[] args) {
         int i = 1;
         while (i <= 10) 
-            System.out.println(i);
             i++;
+            System.out.println(i);
+        
         
         System.out.println("Good Day");
     }
 }
-//print 1 infinitely as without braces only first line is considered to be part of loop
+//Output 11 Good Day!
