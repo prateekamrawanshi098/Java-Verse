@@ -1,0 +1,692 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "vhUwoPMwIET49zHvq3afn",
+      "type": "text",
+      "x": 485,
+      "y": 119,
+      "width": 165,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 856707869,
+      "version": 39,
+      "versionNonce": 1492544243,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782106775861,
+      "link": null,
+      "locked": false,
+      "text": "Initializing array\n===============\n\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Initializing array\n===============\n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "9eV2t1KziMcxuOAHIlsg-",
+      "type": "text",
+      "x": 330,
+      "y": 201,
+      "width": 307,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 871926323,
+      "version": 243,
+      "versionNonce": 2059015037,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107019499,
+      "link": null,
+      "locked": false,
+      "text": "1. int [] arr=new int[12];\narr[0]=1;\narr[1]=2;\n\n2. int [] arr=new int[]{1,2,3,4};\n\n3.int [] arr;\n  arr={1,2,3,4}; // Error\n  \n4. int [] arr;\narr=new int[]{1,2,3,4,5,6};\n\n5. int [] arr={1,2,3,4,5}; ok",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. int [] arr=new int[12];\narr[0]=1;\narr[1]=2;\n\n2. int [] arr=new int[]{1,2,3,4};\n\n3.int [] arr;\n  arr={1,2,3,4}; // Error\n  \n4. int [] arr;\narr=new int[]{1,2,3,4,5,6};\n\n5. int [] arr={1,2,3,4,5}; ok",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "jbokSifACID02tKjeZczU",
+      "type": "freedraw",
+      "x": 580,
+      "y": 304,
+      "width": 123,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 1051416083,
+      "version": 45,
+      "versionNonce": 525161693,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107036621,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -10
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          2,
+          -18
+        ],
+        [
+          4,
+          -22
+        ],
+        [
+          6,
+          -24
+        ],
+        [
+          7,
+          -25
+        ],
+        [
+          8,
+          -26
+        ],
+        [
+          9,
+          -28
+        ],
+        [
+          11,
+          -28
+        ],
+        [
+          16,
+          -31
+        ],
+        [
+          20,
+          -32
+        ],
+        [
+          24,
+          -34
+        ],
+        [
+          29,
+          -35
+        ],
+        [
+          32,
+          -36
+        ],
+        [
+          38,
+          -37
+        ],
+        [
+          41,
+          -37
+        ],
+        [
+          47,
+          -37
+        ],
+        [
+          59,
+          -37
+        ],
+        [
+          65,
+          -35
+        ],
+        [
+          73,
+          -33
+        ],
+        [
+          83,
+          -28
+        ],
+        [
+          89,
+          -27
+        ],
+        [
+          95,
+          -24
+        ],
+        [
+          99,
+          -21
+        ],
+        [
+          102,
+          -19
+        ],
+        [
+          105,
+          -18
+        ],
+        [
+          110,
+          -13
+        ],
+        [
+          112,
+          -9
+        ],
+        [
+          116,
+          -5
+        ],
+        [
+          120,
+          0
+        ],
+        [
+          120,
+          2
+        ],
+        [
+          122,
+          3
+        ],
+        [
+          122,
+          5
+        ],
+        [
+          122,
+          6
+        ],
+        [
+          123,
+          6
+        ],
+        [
+          123,
+          7
+        ],
+        [
+          123,
+          8
+        ],
+        [
+          123,
+          8
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        123,
+        8
+      ]
+    },
+    {
+      "id": "dPWCB0wwcsu5hE42zNpLK",
+      "type": "freedraw",
+      "x": 695,
+      "y": 313,
+      "width": 1,
+      "height": 3,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 2099498259,
+      "version": 6,
+      "versionNonce": 338406077,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107038384,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "X78tUN7hgDKrS_jW-3VPM",
+      "type": "freedraw",
+      "x": 696,
+      "y": 317,
+      "width": 16,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 1235370291,
+      "version": 40,
+      "versionNonce": 376129971,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107040648,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          -1
+        ],
+        [
+          16,
+          -2
+        ],
+        [
+          16,
+          -4
+        ],
+        [
+          16,
+          -5
+        ],
+        [
+          16,
+          -6
+        ],
+        [
+          16,
+          -7
+        ],
+        [
+          16,
+          -8
+        ],
+        [
+          16,
+          -9
+        ],
+        [
+          16,
+          -10
+        ],
+        [
+          16,
+          -11
+        ],
+        [
+          16,
+          -12
+        ],
+        [
+          16,
+          -13
+        ],
+        [
+          16,
+          -13
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        16,
+        -13
+      ]
+    },
+    {
+      "id": "UduLhvL_6FGE3aSfeJiSn",
+      "type": "text",
+      "x": 738,
+      "y": 325,
+      "width": 94,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 979023709,
+      "version": 13,
+      "versionNonce": 1347306611,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107053112,
+      "link": null,
+      "locked": false,
+      "text": "Initializer",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Initializer",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "VJ89T1NeFd2TgO4bFjzpj",
+      "type": "text",
+      "x": 559,
+      "y": 600,
+      "width": 209,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 256377779,
+      "version": 48,
+      "versionNonce": 809996957,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107325499,
+      "link": null,
+      "locked": false,
+      "text": "Using length in Array\n===================\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Using length in Array\n===================\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "xUxarJjnwdNbZK0GkZS5b",
+      "type": "text",
+      "x": 334,
+      "y": 698,
+      "width": 448,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 301695827,
+      "version": 108,
+      "versionNonce": 1884202877,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107368151,
+      "link": null,
+      "locked": false,
+      "text": "Every Array in java has property called length\nwhich returns number of elements in array.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Every Array in java has property called length\nwhich returns number of elements in array.\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "qSB1fgkno8O0jzKyViSm0",
+      "type": "text",
+      "x": 338,
+      "y": 791,
+      "width": 225,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": null,
+      "seed": 287222845,
+      "version": 52,
+      "versionNonce": 768599283,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782107401601,
+      "link": null,
+      "locked": false,
+      "text": "int [] arr={1,2,3,4,5,6};\nSOP(arr.length);  // 6",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "int [] arr={1,2,3,4,5,6};\nSOP(arr.length);  // 6",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
