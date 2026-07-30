@@ -1,0 +1,1569 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "KbwY95zVZtjN0_XJ8Pzao",
+      "type": "text",
+      "x": 360,
+      "y": 117,
+      "width": 264,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1913400731,
+      "version": 69,
+      "versionNonce": 1568420629,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785387863051,
+      "link": null,
+      "locked": false,
+      "text": "Paramaterized constructor\n========================",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Paramaterized constructor\n========================",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "tnFWt7jp4at06e4Pyezib",
+      "type": "text",
+      "x": 152,
+      "y": 207,
+      "width": 574,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 403720859,
+      "version": 562,
+      "versionNonce": 283609019,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785388958883,
+      "link": null,
+      "locked": false,
+      "text": "1. Just like paramaterized methods programmer can also \ncreate paramaterized constructor.\n\n2. Paramaterized constrructor accepts the arguement.\n\n3. There is rule with parameterized contructor that\nwhile calling the constructor during object creation \nit must also be parametrized with same arg list and order.\n\n----->> 11Account.java\n\nIn this way different object can have different field value.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Just like paramaterized methods programmer can also \ncreate paramaterized constructor.\n\n2. Paramaterized constrructor accepts the arguement.\n\n3. There is rule with parameterized contructor that\nwhile calling the constructor during object creation \nit must also be parametrized with same arg list and order.\n\n----->> 11Account.java\n\nIn this way different object can have different field value.\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "5RTViEi0ZN-ri4bYWy-iF",
+      "type": "text",
+      "x": 346,
+      "y": 633,
+      "width": 191,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 1013955989,
+      "version": 58,
+      "versionNonce": 1383712219,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785390964893,
+      "link": null,
+      "locked": false,
+      "text": "Method Overloading\n=================",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Method Overloading\n=================",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "iYcakU9T5Tv_aUFX-kL8I",
+      "type": "text",
+      "x": 171,
+      "y": 724,
+      "width": 577,
+      "height": 500,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 314992309,
+      "version": 357,
+      "versionNonce": 666672245,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785391137657,
+      "link": null,
+      "locked": false,
+      "text": "1. Method overloading is a concept in which In same scope \nmultiple methods are created with same name .\n\n2. But they must be different in terms of arguement.\n\nDiffrenet can be of three types :\n\n1. No. of arguements.\n\n2. Order of arguements.\n\n3. data types of arguements.\n\n\n\n\n\n\n\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Method overloading is a concept in which In same scope \nmultiple methods are created with same name .\n\n2. But they must be different in terms of arguement.\n\nDiffrenet can be of three types :\n\n1. No. of arguements.\n\n2. Order of arguements.\n\n3. data types of arguements.\n\n\n\n\n\n\n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "lruG3sGT0d-mVILZ6uzE3",
+      "type": "text",
+      "x": 153,
+      "y": 1096,
+      "width": 466,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 540735131,
+      "version": 142,
+      "versionNonce": 2010393557,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785391385696,
+      "link": null,
+      "locked": false,
+      "text": "One of the best example of method overloading\nwhich is already present in java.\n\nis \"println\" method\n\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "One of the best example of method overloading\nwhich is already present in java.\n\nis \"println\" method\n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "ncDBTLB-44NJYgs3Qs71n",
+      "type": "text",
+      "x": 150,
+      "y": 1262,
+      "width": 147,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 309080219,
+      "version": 87,
+      "versionNonce": 275076309,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785391431751,
+      "link": null,
+      "locked": false,
+      "text": "int a=10;\nSOP(a);\n\nString b=\"java\";\nSOP(b);\n\ndouble d=15.5;\nSOP(d);",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "int a=10;\nSOP(a);\n\nString b=\"java\";\nSOP(b);\n\ndouble d=15.5;\nSOP(d);",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "YuQAWySoT8zaYiAox9G2h",
+      "type": "freedraw",
+      "x": 305,
+      "y": 1277,
+      "width": 42,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 348731291,
+      "version": 280,
+      "versionNonce": 1113689179,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785391460287,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -2,
+          9
+        ],
+        [
+          -3,
+          11
+        ],
+        [
+          -4,
+          11
+        ],
+        [
+          -5,
+          11
+        ],
+        [
+          -6,
+          11
+        ],
+        [
+          -7,
+          11
+        ],
+        [
+          -9,
+          10
+        ],
+        [
+          -10,
+          9
+        ],
+        [
+          -12,
+          6
+        ],
+        [
+          -13,
+          6
+        ],
+        [
+          -14,
+          5
+        ],
+        [
+          -14,
+          4
+        ],
+        [
+          -15,
+          3
+        ],
+        [
+          -15,
+          2
+        ],
+        [
+          -16,
+          1
+        ],
+        [
+          -16,
+          0
+        ],
+        [
+          -16,
+          -1
+        ],
+        [
+          -16,
+          -2
+        ],
+        [
+          -16,
+          -3
+        ],
+        [
+          -16,
+          -5
+        ],
+        [
+          -16,
+          -6
+        ],
+        [
+          -16,
+          -7
+        ],
+        [
+          -16,
+          -8
+        ],
+        [
+          -16,
+          -9
+        ],
+        [
+          -16,
+          -10
+        ],
+        [
+          -16,
+          -11
+        ],
+        [
+          -15,
+          -11
+        ],
+        [
+          -15,
+          -12
+        ],
+        [
+          -13,
+          -13
+        ],
+        [
+          -12,
+          -14
+        ],
+        [
+          -11,
+          -14
+        ],
+        [
+          -10,
+          -15
+        ],
+        [
+          -9,
+          -15
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -6,
+          -16
+        ],
+        [
+          -5,
+          -16
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -2,
+          -16
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          3,
+          -15
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          5,
+          -15
+        ],
+        [
+          5,
+          -14
+        ],
+        [
+          6,
+          -14
+        ],
+        [
+          7,
+          -14
+        ],
+        [
+          7,
+          -13
+        ],
+        [
+          8,
+          -13
+        ],
+        [
+          8,
+          -12
+        ],
+        [
+          9,
+          -12
+        ],
+        [
+          9,
+          -11
+        ],
+        [
+          11,
+          -10
+        ],
+        [
+          12,
+          -10
+        ],
+        [
+          12,
+          -9
+        ],
+        [
+          12,
+          -8
+        ],
+        [
+          13,
+          -8
+        ],
+        [
+          13,
+          -7
+        ],
+        [
+          14,
+          -6
+        ],
+        [
+          15,
+          -5
+        ],
+        [
+          15,
+          -4
+        ],
+        [
+          16,
+          -4
+        ],
+        [
+          16,
+          -3
+        ],
+        [
+          16,
+          -2
+        ],
+        [
+          16,
+          -1
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          19,
+          9
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          20,
+          17
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          20,
+          24
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          20,
+          36
+        ],
+        [
+          20,
+          37
+        ],
+        [
+          20,
+          39
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          17,
+          43
+        ],
+        [
+          16,
+          43
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          15,
+          45
+        ],
+        [
+          14,
+          46
+        ],
+        [
+          14,
+          47
+        ],
+        [
+          13,
+          48
+        ],
+        [
+          13,
+          49
+        ],
+        [
+          12,
+          50
+        ],
+        [
+          12,
+          52
+        ],
+        [
+          12,
+          53
+        ],
+        [
+          12,
+          54
+        ],
+        [
+          11,
+          54
+        ],
+        [
+          11,
+          57
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          11,
+          63
+        ],
+        [
+          11,
+          64
+        ],
+        [
+          11,
+          66
+        ],
+        [
+          11,
+          67
+        ],
+        [
+          11,
+          69
+        ],
+        [
+          11,
+          70
+        ],
+        [
+          11,
+          71
+        ],
+        [
+          12,
+          72
+        ],
+        [
+          12,
+          74
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          13,
+          77
+        ],
+        [
+          14,
+          78
+        ],
+        [
+          15,
+          79
+        ],
+        [
+          17,
+          79
+        ],
+        [
+          18,
+          79
+        ],
+        [
+          19,
+          79
+        ],
+        [
+          20,
+          79
+        ],
+        [
+          21,
+          79
+        ],
+        [
+          22,
+          78
+        ],
+        [
+          23,
+          77
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          24,
+          73
+        ],
+        [
+          25,
+          72
+        ],
+        [
+          25,
+          71
+        ],
+        [
+          26,
+          70
+        ],
+        [
+          26,
+          69
+        ],
+        [
+          26,
+          68
+        ],
+        [
+          26,
+          67
+        ],
+        [
+          26,
+          66
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          24,
+          64
+        ],
+        [
+          24,
+          63
+        ],
+        [
+          22,
+          63
+        ],
+        [
+          21,
+          63
+        ],
+        [
+          21,
+          62
+        ],
+        [
+          20,
+          62
+        ],
+        [
+          19,
+          62
+        ],
+        [
+          18,
+          62
+        ],
+        [
+          17,
+          62
+        ],
+        [
+          16,
+          63
+        ],
+        [
+          16,
+          64
+        ],
+        [
+          15,
+          65
+        ],
+        [
+          14,
+          66
+        ],
+        [
+          14,
+          67
+        ],
+        [
+          13,
+          68
+        ],
+        [
+          13,
+          69
+        ],
+        [
+          13,
+          70
+        ],
+        [
+          13,
+          71
+        ],
+        [
+          13,
+          72
+        ],
+        [
+          13,
+          74
+        ],
+        [
+          13,
+          75
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          13,
+          78
+        ],
+        [
+          13,
+          79
+        ],
+        [
+          13,
+          81
+        ],
+        [
+          13,
+          82
+        ],
+        [
+          13,
+          84
+        ],
+        [
+          13,
+          86
+        ],
+        [
+          14,
+          88
+        ],
+        [
+          14,
+          89
+        ],
+        [
+          14,
+          91
+        ],
+        [
+          14,
+          92
+        ],
+        [
+          15,
+          94
+        ],
+        [
+          15,
+          96
+        ],
+        [
+          15,
+          99
+        ],
+        [
+          17,
+          102
+        ],
+        [
+          17,
+          106
+        ],
+        [
+          18,
+          109
+        ],
+        [
+          19,
+          112
+        ],
+        [
+          20,
+          118
+        ],
+        [
+          21,
+          120
+        ],
+        [
+          21,
+          124
+        ],
+        [
+          21,
+          125
+        ],
+        [
+          22,
+          126
+        ],
+        [
+          23,
+          129
+        ],
+        [
+          23,
+          131
+        ],
+        [
+          23,
+          132
+        ],
+        [
+          23,
+          133
+        ],
+        [
+          23,
+          135
+        ],
+        [
+          23,
+          136
+        ],
+        [
+          23,
+          137
+        ],
+        [
+          23,
+          139
+        ],
+        [
+          23,
+          140
+        ],
+        [
+          23,
+          143
+        ],
+        [
+          23,
+          144
+        ],
+        [
+          23,
+          149
+        ],
+        [
+          23,
+          151
+        ],
+        [
+          23,
+          156
+        ],
+        [
+          23,
+          159
+        ],
+        [
+          23,
+          163
+        ],
+        [
+          23,
+          165
+        ],
+        [
+          23,
+          168
+        ],
+        [
+          23,
+          169
+        ],
+        [
+          23,
+          172
+        ],
+        [
+          23,
+          175
+        ],
+        [
+          23,
+          180
+        ],
+        [
+          23,
+          183
+        ],
+        [
+          23,
+          187
+        ],
+        [
+          22,
+          191
+        ],
+        [
+          22,
+          193
+        ],
+        [
+          21,
+          194
+        ],
+        [
+          21,
+          196
+        ],
+        [
+          21,
+          198
+        ],
+        [
+          20,
+          199
+        ],
+        [
+          20,
+          201
+        ],
+        [
+          19,
+          202
+        ],
+        [
+          17,
+          204
+        ],
+        [
+          16,
+          205
+        ],
+        [
+          15,
+          206
+        ],
+        [
+          14,
+          207
+        ],
+        [
+          13,
+          208
+        ],
+        [
+          10,
+          209
+        ],
+        [
+          8,
+          209
+        ],
+        [
+          5,
+          209
+        ],
+        [
+          4,
+          209
+        ],
+        [
+          2,
+          208
+        ],
+        [
+          0,
+          208
+        ],
+        [
+          -1,
+          208
+        ],
+        [
+          -2,
+          207
+        ],
+        [
+          -3,
+          207
+        ],
+        [
+          -4,
+          206
+        ],
+        [
+          -5,
+          206
+        ],
+        [
+          -6,
+          204
+        ],
+        [
+          -7,
+          203
+        ],
+        [
+          -7,
+          202
+        ],
+        [
+          -7,
+          200
+        ],
+        [
+          -7,
+          199
+        ],
+        [
+          -7,
+          197
+        ],
+        [
+          -7,
+          196
+        ],
+        [
+          -7,
+          195
+        ],
+        [
+          -7,
+          193
+        ],
+        [
+          -7,
+          192
+        ],
+        [
+          -7,
+          191
+        ],
+        [
+          -7,
+          190
+        ],
+        [
+          -7,
+          189
+        ],
+        [
+          -7,
+          188
+        ],
+        [
+          -6,
+          187
+        ],
+        [
+          -5,
+          187
+        ],
+        [
+          -5,
+          186
+        ],
+        [
+          -4,
+          186
+        ],
+        [
+          -3,
+          186
+        ],
+        [
+          -2,
+          186
+        ],
+        [
+          -1,
+          186
+        ],
+        [
+          0,
+          187
+        ],
+        [
+          1,
+          188
+        ],
+        [
+          1,
+          189
+        ],
+        [
+          1,
+          190
+        ],
+        [
+          2,
+          190
+        ],
+        [
+          2,
+          191
+        ],
+        [
+          3,
+          191
+        ],
+        [
+          3,
+          192
+        ],
+        [
+          3,
+          192
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        3,
+        192
+      ]
+    },
+    {
+      "id": "-jgr59S1_Fhfo-rhGjBaB",
+      "type": "text",
+      "x": 347.6988244482377,
+      "y": 1321.2746332359475,
+      "width": 197,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 1959086331,
+      "version": 86,
+      "versionNonce": 128249051,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785391496103,
+      "link": null,
+      "locked": false,
+      "text": "method Overloading \nbase on datatype",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "method Overloading \nbase on datatype",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "bTapKmsv3E-LTgDFkG9AF",
+      "type": "text",
+      "x": 136.1230156605279,
+      "y": 1612.5178761968082,
+      "width": 374,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": null,
+      "seed": 1920345947,
+      "version": 87,
+      "versionNonce": 1597880853,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785392667497,
+      "link": null,
+      "locked": false,
+      "text": "How java decides which method to run\n==================================",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "How java decides which method to run\n==================================",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "8rpuzFIG2U2XGz4Fow2JG",
+      "type": "text",
+      "x": 133.99760230945483,
+      "y": 1683.8525530987913,
+      "width": 335,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 1629810267,
+      "version": 230,
+      "versionNonce": 448349493,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785392771669,
+      "link": null,
+      "locked": false,
+      "text": "Method overloading resolution\n-------------------------------------\n\n1. Exact match\n\n2. type Conversion in higher family\n\n3. next Higer Type\n\n------>13Ovld.java",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Method overloading resolution\n-------------------------------------\n\n1. Exact match\n\n2. type Conversion in higher family\n\n3. next Higer Type\n\n------>13Ovld.java",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rMTGXWo6EErcZ-o42i2C6",
+      "type": "text",
+      "x": 306.9457613104174,
+      "y": 2025.4106924442776,
+      "width": 242,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": null,
+      "seed": 1154956277,
+      "version": 54,
+      "versionNonce": 1714184795,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785393826944,
+      "link": null,
+      "locked": false,
+      "text": "Constructor Overloading\n======================",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Constructor Overloading\n======================",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Y9AC-j5AQlhx15YsEveBM",
+      "type": "text",
+      "x": 124.78869965478083,
+      "y": 2124.0371678158376,
+      "width": 649,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 1543529013,
+      "version": 378,
+      "versionNonce": 1262729115,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1785394019553,
+      "link": null,
+      "locked": false,
+      "text": "1. Means In one class we are going to provide multiple \nconstructor.\n\n2. Every Constructor must be different in terms of arguement.\n\n3. When object created java will call the constructor which closely \nmatches the exact parameter type.\n\nBenefits is that programmer can create object in multiple ways.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Means In one class we are going to provide multiple \nconstructor.\n\n2. Every Constructor must be different in terms of arguement.\n\n3. When object created java will call the constructor which closely \nmatches the exact parameter type.\n\nBenefits is that programmer can create object in multiple ways.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
