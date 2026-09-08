@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "Oy2gdNjZHJacClBQ3n7he",
+      "type": "text",
+      "x": 455,
+      "y": 108,
+      "width": 635,
+      "height": 5400,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1586556272,
+      "version": 2381,
+      "versionNonce": 635129232,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788867817890,
+      "link": null,
+      "locked": false,
+      "text": "the final keyword\n================\n\nfinal key is used in three places\n\n1. final data\n2. final method and\n3. final class\n\n1. final data \n   =========\n\n=>It is a variable whose variable cannot be changed once\ndeclared . \n\nrules\n------\n\n1. Its value cannot be changed .\n2. it must be initialized by programmer\n\nwhich can be done in 2 places \na. constructor \nb. explicitly \n\nIt is recommended that if a variable is final and static both\nthan it must be in uppercase just like in built Math.PI .\n\n\n2. final method\n==============\n\n=> When programmer wants that particular method inherited in\nchild from parent class must not be overriden then it mustr be\ndeclared as final method . In this way child class is not allowed\nto override that method .\n\n3. final class\n   =========\n\n=> If a class is declared as final then java prohibits its\ninheritance from other class .\n\n\n\n\n                                 Interface\n                                ==========\n\n1. It is just good as absrtract class but with different\nfeatures .\n\n2. We can create variables in interface but by default they are\npublic , static and final and we cannot change that .\n\n3. Interface can contain method but by default they are public\nand abstract .\n\n4. It means that we cannot provide any body to methods .\n\n5. from java 8 we can provide body to the methods but for that\nwe need to declare it with static or default keyword .\n\n6. We cannot create object of interface but its reference can\nbe created .\n\n7. interface reference can point to child class object and can\ncall its overriden method , thus alllows run time polymorphism .\n\n8. It also allows multiple inheritance .\n\n# Variables in Interface\n\n========================\n\nBy default, every variable declared inside an interface is:\n\n**public + static + final**\n\nExample:\n\n\ninterface A {\n    int x = 10;\n}\n\n\nThe above is automatically treated as:\n\n\ninterface A {\n    public static final int x = 10;\n}\n\n\n---\n\n## Why are interface variables public, static and final?\n\n=========================================================\n=\n\n### 1. public\n\nInterface is meant to define a contract that can be accessed\nby implementing classes and other classes.\n\nTherefore, interface variables are always `public`.\n\n```java\nSystem.out.println(A.x);\n```\n\n---\n\n### 2. static\n\nAn interface cannot be directly instantiated:\n\n```java\nA obj = new A();    // ❌ Error\n```\n\nTherefore, its variables cannot be instance variables.\n\nThey are `static`, meaning they belong to the interface itself\nrather than to an object.\n\n```java\nA.x;\n```\n\n---\n\n### 3. final\n\nInterface variables are meant to represent constants.\n\nTherefore, their value cannot be changed.\n\n```java\nA.x = 20;    // ❌ Error\n```\n\n`final` means the variable can be assigned only once.\n\n---\n\n# Can we change these modifiers?\n\n=================================\n\nNo.\n\nAn interface variable cannot be:\n\n* private\n* protected\n* non-static\n* non-final\n\nFor example:\n\n```java\ninterface A {\n\n    private int x = 10;       // ❌\n    protected int y = 20;     // ❌\n    int z = 30;               // ✅\n}\n```\n\n`z` is automatically:\n\n```java\npublic static final int z = 30;\n```\n\nEven if we don't explicitly write `public static final`, Java\nautomatically applies these modifiers.\n\n---\n\n# Important Point\n\n=================\n\n```java\ninterface A {\n    int x = 10;\n}\n```\n\nis exactly equivalent to:\n\n```java\ninterface A {\n    public static final int x = 10;\n}\n```\n\nTherefore:\n\n**Every variable declared inside an interface is strictly `public\nstatic final`.**\n\n### Easy Trick\n\n**Interface Variable = Constant**\n\n```text\npublic → accessible everywhere\nstatic → belongs to interface, no object required\nfinal  → value cannot be changed\n```\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "the final keyword\n================\n\nfinal key is used in three places\n\n1. final data\n2. final method and\n3. final class\n\n1. final data \n   =========\n\n=>It is a variable whose variable cannot be changed once declared . \n\nrules\n------\n\n1. Its value cannot be changed .\n2. it must be initialized by programmer\n\nwhich can be done in 2 places \na. constructor \nb. explicitly \n\nIt is recommended that if a variable is final and static both than it must be in uppercase just like in built Math.PI .\n\n\n2. final method\n==============\n\n=> When programmer wants that particular method inherited in child from parent class must not be overriden then it mustr be declared as final method . In this way child class is not allowed to override that method .\n\n3. final class\n   =========\n\n=> If a class is declared as final then java prohibits its inheritance from other class .\n\n\n\n\n                                 Interface\n                                ==========\n\n1. It is just good as absrtract class but with different features .\n\n2. We can create variables in interface but by default they are public , static and final and we cannot change that .\n\n3. Interface can contain method but by default they are public and abstract .\n\n4. It means that we cannot provide any body to methods .\n\n5. from java 8 we can provide body to the methods but for that we need to declare it with static or default keyword .\n\n6. We cannot create object of interface but its reference can be created .\n\n7. interface reference can point to child class object and can call its overriden method , thus alllows run time polymorphism .\n\n8. It also allows multiple inheritance .\n\n# Variables in Interface\n\n========================\n\nBy default, every variable declared inside an interface is:\n\n**public + static + final**\n\nExample:\n\n\ninterface A {\n    int x = 10;\n}\n\n\nThe above is automatically treated as:\n\n\ninterface A {\n    public static final int x = 10;\n}\n\n\n---\n\n## Why are interface variables public, static and final?\n\n==========================================================\n\n### 1. public\n\nInterface is meant to define a contract that can be accessed by implementing classes and other classes.\n\nTherefore, interface variables are always `public`.\n\n```java\nSystem.out.println(A.x);\n```\n\n---\n\n### 2. static\n\nAn interface cannot be directly instantiated:\n\n```java\nA obj = new A();    // ❌ Error\n```\n\nTherefore, its variables cannot be instance variables.\n\nThey are `static`, meaning they belong to the interface itself rather than to an object.\n\n```java\nA.x;\n```\n\n---\n\n### 3. final\n\nInterface variables are meant to represent constants.\n\nTherefore, their value cannot be changed.\n\n```java\nA.x = 20;    // ❌ Error\n```\n\n`final` means the variable can be assigned only once.\n\n---\n\n# Can we change these modifiers?\n\n=================================\n\nNo.\n\nAn interface variable cannot be:\n\n* private\n* protected\n* non-static\n* non-final\n\nFor example:\n\n```java\ninterface A {\n\n    private int x = 10;       // ❌\n    protected int y = 20;     // ❌\n    int z = 30;               // ✅\n}\n```\n\n`z` is automatically:\n\n```java\npublic static final int z = 30;\n```\n\nEven if we don't explicitly write `public static final`, Java automatically applies these modifiers.\n\n---\n\n# Important Point\n\n=================\n\n```java\ninterface A {\n    int x = 10;\n}\n```\n\nis exactly equivalent to:\n\n```java\ninterface A {\n    public static final int x = 10;\n}\n```\n\nTherefore:\n\n**Every variable declared inside an interface is strictly `public static final`.**\n\n### Easy Trick\n\n**Interface Variable = Constant**\n\n```text\npublic → accessible everywhere\nstatic → belongs to interface, no object required\nfinal  → value cannot be changed\n```\n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
