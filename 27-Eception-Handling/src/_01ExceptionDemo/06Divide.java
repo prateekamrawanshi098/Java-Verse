@@ -1,0 +1,15 @@
+package _01ExceptionDemo;
+
+ class Divide2 {
+    public static void main(String[] args) {
+        try{
+            int a=Integer.parseInt(args[0]);
+            int b=Integer.parseInt(args[1]);
+            int c=a/b;
+            System.out.println("division is "+c);
+        }catch (Exception ex){
+            System.out.println("Some problem : "+ex);
+        }
+    }
+    
+}
