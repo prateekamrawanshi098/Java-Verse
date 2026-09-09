@@ -1,0 +1,741 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "iiV4peyL-A62H6xn-jTpy",
+      "type": "text",
+      "x": 399,
+      "y": 124,
+      "width": 182,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1407423553,
+      "version": 42,
+      "versionNonce": 87428975,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788929997837,
+      "link": null,
+      "locked": false,
+      "text": "Exception Handling\n================",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Exception Handling\n================",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "drAPizxbL2dY2M4RWX9YY",
+      "type": "text",
+      "x": 253,
+      "y": 201,
+      "width": 714,
+      "height": 925,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1215175393,
+      "version": 829,
+      "versionNonce": 740366977,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "M-MuwTNdE1K1krqKXE-ap",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1788934186358,
+      "link": null,
+      "locked": false,
+      "text": "--> Run time error is called exception .\n\nWhat java does by default when exception occurs ?\n\n1. immedeatly kills the programme .\n\n2. Describe the exception but in very technical manner .\n\nSo , by exception handling we can overcome these behaviour \nexception handling benefits \n\n1. not killing programme \n2. displaying error messages in easy to to understand way .\n\n--> So exception handling makes our programme strong and user friendly .\n\n\nException handling provides us 5 keywords\n=======================================\n\n1. try\n2. catch\n3. throw\n4. throws\n5. finally\n\nSynatx\n======\n\ntry{\n.........\n.............\n..........\n} \ncatch(<Exception_class> <ref>) {\n............ \n  }",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "--> Run time error is called exception .\n\nWhat java does by default when exception occurs ?\n\n1. immedeatly kills the programme .\n\n2. Describe the exception but in very technical manner .\n\nSo , by exception handling we can overcome these behaviour \nexception handling benefits \n\n1. not killing programme \n2. displaying error messages in easy to to understand way .\n\n--> So exception handling makes our programme strong and user friendly .\n\n\nException handling provides us 5 keywords\n=======================================\n\n1. try\n2. catch\n3. throw\n4. throws\n5. finally\n\nSynatx\n======\n\ntry{\n.........\n.............\n..........\n} \ncatch(<Exception_class> <ref>) {\n............ \n  }",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "e2CFQu1d5dkPNTPiby1JU",
+      "type": "freedraw",
+      "x": 336,
+      "y": 963,
+      "width": 28,
+      "height": 73,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 1403027201,
+      "version": 100,
+      "versionNonce": 1751977153,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788933278346,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          -7
+        ],
+        [
+          2,
+          -7
+        ],
+        [
+          3,
+          -7
+        ],
+        [
+          4,
+          -8
+        ],
+        [
+          6,
+          -8
+        ],
+        [
+          8,
+          -9
+        ],
+        [
+          11,
+          -10
+        ],
+        [
+          13,
+          -10
+        ],
+        [
+          15,
+          -10
+        ],
+        [
+          16,
+          -10
+        ],
+        [
+          16,
+          -9
+        ],
+        [
+          16,
+          -8
+        ],
+        [
+          16,
+          -5
+        ],
+        [
+          16,
+          -3
+        ],
+        [
+          16,
+          -1
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          9,
+          22
+        ],
+        [
+          9,
+          23
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          5,
+          23
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          5,
+          26
+        ],
+        [
+          5,
+          27
+        ],
+        [
+          5,
+          28
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          5,
+          31
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          5,
+          35
+        ],
+        [
+          5,
+          37
+        ],
+        [
+          5,
+          38
+        ],
+        [
+          5,
+          39
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          5,
+          43
+        ],
+        [
+          5,
+          44
+        ],
+        [
+          5,
+          46
+        ],
+        [
+          5,
+          47
+        ],
+        [
+          5,
+          49
+        ],
+        [
+          5,
+          50
+        ],
+        [
+          5,
+          53
+        ],
+        [
+          3,
+          54
+        ],
+        [
+          3,
+          55
+        ],
+        [
+          2,
+          58
+        ],
+        [
+          1,
+          58
+        ],
+        [
+          0,
+          60
+        ],
+        [
+          -1,
+          61
+        ],
+        [
+          -3,
+          62
+        ],
+        [
+          -4,
+          62
+        ],
+        [
+          -5,
+          63
+        ],
+        [
+          -6,
+          63
+        ],
+        [
+          -8,
+          63
+        ],
+        [
+          -9,
+          63
+        ],
+        [
+          -10,
+          63
+        ],
+        [
+          -11,
+          62
+        ],
+        [
+          -11,
+          61
+        ],
+        [
+          -12,
+          60
+        ],
+        [
+          -12,
+          59
+        ],
+        [
+          -12,
+          58
+        ],
+        [
+          -12,
+          57
+        ],
+        [
+          -11,
+          57
+        ],
+        [
+          -11,
+          57
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        -11,
+        57
+      ]
+    },
+    {
+      "id": "V_QN5bRoX9PiP1YY3iN-G",
+      "type": "arrow",
+      "x": 362,
+      "y": 992,
+      "width": 27,
+      "height": 1,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2006551023,
+      "version": 14,
+      "versionNonce": 31710415,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788933282599,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          -1
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "FXmcwhMFpbEL01jPnpixo",
+      "type": "text",
+      "x": 402,
+      "y": 876,
+      "width": 357,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 504195823,
+      "version": 588,
+      "versionNonce": 1170152897,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788933934495,
+      "link": null,
+      "locked": false,
+      "text": "we write those code inside which\nhas chance of producing exception\nalso the code which do not produce\nexception but depend (haing\nrelation ) on exception producing\ncode also must be inside try block.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "we write those code inside which  has chance of producing exception also the code which do not produce exception but depend (haing relation ) on exception producing code also must be inside try block.",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "z4AU-sX_uC-Dxmzua0INi",
+      "type": "text",
+      "x": 253,
+      "y": 1153,
+      "width": 547,
+      "height": 700,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 466761313,
+      "version": 917,
+      "versionNonce": 1033694369,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788934621749,
+      "link": null,
+      "locked": false,
+      "text": "### Rule 1\n\nWhenever an exception occurs inside the `try` block at\nany line, Java **immediately stops executing the\nremaining statements of that `try` block**.\n\n### Rule 2\n\nWhen an exception occurs, Java creates/throws an\n**exception object** representing the type of\nexception that occurred.\n\nJava then searches for a **matching `catch` block\nfrom top to bottom**.\n\nThe first compatible `catch` block is executed.\n\nAfter the `catch` block finishes, the program\ncontinues executing the **code after the try-catch\nstatement**.\n\nThis way, the exception can be handled instead of\ncausing immediate program termination.\n\nIf no matching `catch` block is found, the exception\nbecomes **uncaught**, and the current thread\nterminates.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "### Rule 1\n\nWhenever an exception occurs inside the `try` block at any line, Java **immediately stops executing the remaining statements of that `try` block**.\n\n### Rule 2\n\nWhen an exception occurs, Java creates/throws an **exception object** representing the type of exception that occurred.\n\nJava then searches for a **matching `catch` block from top to bottom**.\n\nThe first compatible `catch` block is executed.\n\nAfter the `catch` block finishes, the program continues executing the **code after the try-catch statement**.\n\nThis way, the exception can be handled instead of causing immediate program termination.\n\nIf no matching `catch` block is found, the exception becomes **uncaught**, and the current thread terminates.\n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "ybgIvaFO2i7egLbMv7-oF",
+      "type": "text",
+      "x": 380,
+      "y": 1088,
+      "width": 508,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 432259073,
+      "version": 84,
+      "versionNonce": 1507307297,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "M-MuwTNdE1K1krqKXE-ap",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1788934094585,
+      "link": null,
+      "locked": false,
+      "text": "generally write easy to understand error messages .",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "generally write easy to understand error messages .",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "M-MuwTNdE1K1krqKXE-ap",
+      "type": "arrow",
+      "x": 313.0903991248983,
+      "y": 1102.0859675202648,
+      "width": 53.90960087510172,
+      "height": 1.0859675202648305,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1778617647,
+      "version": 67,
+      "versionNonce": 1192313281,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788934198426,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          53.90960087510172,
+          -1.0859675202648305
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "drAPizxbL2dY2M4RWX9YY",
+        "focus": 0.9501358813400679,
+        "gap": 23.91403247973517
+      },
+      "endBinding": {
+        "elementId": "ybgIvaFO2i7egLbMv7-oF",
+        "focus": 0.27692632628909636,
+        "gap": 13
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
