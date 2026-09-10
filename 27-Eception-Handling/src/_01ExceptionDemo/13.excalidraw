@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "Bq6gEuj0jQmC-IiLVuKif",
+      "type": "text",
+      "x": 399,
+      "y": 116,
+      "width": 668,
+      "height": 1250,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 799093417,
+      "version": 1221,
+      "versionNonce": 873158951,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789021803976,
+      "link": null,
+      "locked": false,
+      "text": "The finally keyword\n==================\n\nFinally is that seq of try-catch whose execution is guranteed by\njava .\n\nIt is used when execution of some piece of code is very very\nimportant .\n\nlike closing file , disconnecting to database .\n\nsynatx\n----------\n1.\n\ntry{\n......\n}\ncatch(){\n...........\n}\nfinally{\n   ..........\n}\n\n\n\n2. \n\ntry{\n ........\n}\n\nfinally{\n...........\n}\n\ntry either comes with catch , finally or both . never alone .\n\nfinally cannot comes alone .\n\nfinally keep track of try thus finally execute if there is no\nexception or exception occur inside try .\n\nif exception occur outside try java will kill programme before\nreaching finally and finally will never run .\n\nother case where finally doesn't run is when System.exit execute\nbefore reaching finally .\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The finally keyword\n==================\n\nFinally is that seq of try-catch whose execution is guranteed by java .\n\nIt is used when execution of some piece of code is very very important .\n\nlike closing file , disconnecting to database .\n\nsynatx\n----------\n1.\n\ntry{\n......\n}\ncatch(){\n...........\n}\nfinally{\n   ..........\n}\n\n\n\n2. \n\ntry{\n ........\n}\n\nfinally{\n...........\n}\n\ntry either comes with catch , finally or both . never alone .\n\nfinally cannot comes alone .\n\nfinally keep track of try thus finally execute if there is no exception or exception occur inside try .\n\nif exception occur outside try java will kill programme before reaching finally and finally will never run .\n\nother case where finally doesn't run is when System.exit execute before reaching finally .\n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

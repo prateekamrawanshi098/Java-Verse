@@ -1,23 +1,15 @@
 package _01ExceptionDemo;
 
-import java.util.Scanner;
-
-class Divide3 {
-     public static void main(String[] args) {
-         Scanner kb=new Scanner(System.in);
-         System.out.println("Enter 2 numbers ");
-         int a=kb.nextInt();
-
-         int b= kb.nextInt();
-         try{
-             if(a<=0){
-                  ArithmeticException ex=new ArithmeticException("Numerator must not be 0");
-                  throw ex;
-             }
-             int c=a/b;
-             System.out.println("Divsion is "+c);
-         }catch (ArithmeticException e){
-             System.out.println(e.getMessage());
-         }
-     }
+ class Divide {
+    public static void main(String[] args) {
+        try{
+            int a=Integer.parseInt(args[0]);
+            int b=Integer.parseInt(args[1]);
+            int c=a/b;
+            System.out.println("division is "+c);
+        }catch (Exception ex){
+            System.out.println("Some problem : "+ex.getMessage());
+        }
+    }
+    
 }
